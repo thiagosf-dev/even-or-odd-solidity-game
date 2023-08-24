@@ -16,38 +16,38 @@
 
 ## Functional Requirements
 
-[x] The player must be able to choose between EVEN or ODD
+- [x] The player must be able to choose between EVEN or ODD
 
-[x] The player must be able to choose numbers from 0 to 2
+- [x] The player must be able to choose numbers from 0 to 2
 
-[x] After successfully making a move, the player should be able to view information such as: "Winner", "Choice Made", "Number played by the player", "Number played by the CPU"
+- [x] After successfully making a move, the player should be able to view information such as: "Winner", "Choice Made", "Number played by the player", "Number played by the CPU"
 
 ## Non-Functional Requirements
 
-[x] Must use the minimum Solidity compilation version ^0.8.12
+- [x] Must use the minimum Solidity compilation version ^0.8.12
 
-[x] Should use Solidity's native concat function to manipulate strings
+- [x] Should use Solidity's native concat function to manipulate strings
 
-[x] Should use the library @openzeppelin/contracts/utils/Strings.sol for string conversion
+- [x] Should use the library @openzeppelin/contracts/utils/Strings.sol for string conversion
 
-[x] Should use the global 'block' variable to access block information
+- [x] Should use the global 'block' variable to access block information
 
-[x] Should use abi.encodePacked for encoding
+- [x] Should use abi.encodePacked for encoding
 
-[x] Should use Solidity's keccak256 hashing system
+- [x] Should use Solidity's keccak256 hashing system
 
 ## Business Rules
 
-[x] The game must start with no choice made
+- [x] The game must start with no choice made
 
-[x] The player can only play a number if they have chosen EVEN or ODD beforehand
+- [x] The player can only play a number if they have chosen EVEN or ODD beforehand
 
-[x] The player can only choose between EVEN or ODD, and the message "Choose EVEN or ODD" should be
+- [x] The player can only choose between EVEN or ODD, and the message "Choose EVEN or ODD" should be
 displayed if neither option is chosen
 
-[x] The player can only play numbers 0, 1, or 2, and the message "Play 0, 1, or 2" should be displayed if none of these options is chosen
+- [x] The player can only play numbers 0, 1, or 2, and the message "Play 0, 1, or 2" should be displayed if none of these options is chosen
 
-[x] The CPU's move should be generated with a random value, using the block.timestamp and the player's choice
+- [x] The CPU's move should be generated with a random value, using the block.timestamp and the player's choice
 
 ## How to test?
 
